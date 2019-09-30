@@ -121,8 +121,7 @@ You can train the network from our [trained model](https://pan.baidu.com/s/18Yjd
 ```python
 39 default=os.path.join(cfg.ROOT_DIR, 'Models/pretrained_weight/ASD_iter_160000.caffemodel'), type=str)
 or
-39 default=os.path.join(cfg.ROOT_DIR, 
-'Models/pretrained_weight/vgg16.caffemodel'), type=str)
+39 default=os.path.join(cfg.ROOT_DIR, 'Models/pretrained_weight/vgg16.caffemodel'), type=str)
 ```
 
 Some setting can be found in "./lib/config.py". For example,
@@ -135,7 +134,7 @@ __C.iters_numbers = 160000 # the max iteration number for training
 __C.IMAGE_WIDTH = 512 # the width of the input image
 __C.IMAGE_HEIGHT = 384 # the height of the input image
 
-__C.TRAIN.SNAPSHOT_ITERS = 5000 # saving the training model each 5000 iters
+__C.TRAIN.SNAPSHOT_ITERS = 10000 # saving the training model each 10000 iters
 ```
 
 Training code
