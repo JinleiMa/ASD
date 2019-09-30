@@ -24,7 +24,7 @@ __C.IMAGE_WIDTH = 512
 __C.IMAGE_HEIGHT = 384
 
 # Iterations between snapshots
-__C.TRAIN.SNAPSHOT_ITERS = 5000
+__C.TRAIN.SNAPSHOT_ITERS = 10000
 
 # gt margin setting to using context information
 __C.TRAIN.GT_MARGIN = 1.4
@@ -127,7 +127,7 @@ __C.RPN_NMS_THRESH = 0.7 #0.85
 # Number of top scoring boxes to keep before apply NMS to RPN proposals
 __C.TEST.RPN_PRE_NMS_TOP_N = 6000
 # Number of top scoring boxes to keep after applying NMS to RPN proposals
-__C.TEST.RPN_POST_NMS_TOP_N = 600
+__C.TEST.RPN_POST_NMS_TOP_N = 600 #600
 # Proposal height and width both need to be greater than RPN_MIN_SIZE (at orig image scale)
 __C.TEST.RPN_MIN_SIZE = 8
 __C.TEST.BBOX_REG = True

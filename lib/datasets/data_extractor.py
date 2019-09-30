@@ -211,7 +211,7 @@ def angle_range(angle):
     if angle >= 105 and angle <= 135:
         num = 6
     return num
-
+    
 def get_angle_label():
     
     cache_file = os.path.join(cfg.ROOT_DIR, 'dataset/cache', 'gt_AngleLabeldb.pkl')
@@ -238,8 +238,8 @@ def get_angle_label():
         for ix, obj in enumerate(objs):
             bbox = obj.find('bndbox_angle')
             # Make pixel indexes 0-based
-            x_ctr = float(bbox.find('center_x').text) - 1
-            y_ctr = float(bbox.find('center_y').text) - 1
+            x_ctr = float(bbox.find('center_x').text)
+            y_ctr = float(bbox.find('center_y').text)
             width = float(bbox.find('width').text)
             height = float(bbox.find('height').text)
             
@@ -248,6 +248,9 @@ def get_angle_label():
             width = width * scale_ratio
             height = height * scale_ratio
             angle = float(bbox.find('angle').text)
+            
+            width = 0.9 * width
+            height = 0.9 * height
       
             rect_tuple = tuple([[y_ctr/2, x_ctr/2], [height/2, width/2], angle])        
             
@@ -285,20 +288,45 @@ def get_angle_label():
         cPickle.dump(AngleLabeldbs, fid, cPickle.HIGHEST_PROTOCOL)
     print 'wrote gt roidb to {}'.format(cache_file)
         
-    return AngleLabeldbs    
+    return AngleLabeldbs        
     
     
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
+#def get_angle_label():
+#    
+#    cache_file = os.path.join(cfg.ROOT_DIR, 'dataset/cache', 'gt_AngleLabeldb.pkl')
+#    if os.path.exists(cache_file):
+#        with open(cache_file, 'rb') as fid:
+#            AngleLabeldbs = cPickle.load(fid)
+#        print 'gt ship angle db loaded from {}'.format(cache_file)
+#        return AngleLabeldbs
+#    
+#    AngleLabeldbs = []
+#    angle_label_file_path = "/home/majinlei/data/Ship1537/angle_label"
+#    for gt_image in gt_images:       
+#      angle_label_file_name = os.path.join(angle_label_file_path, gt_image + '.png')
+#      angle_label = cv2.imread(angle_label_file_name, 0)
+#      angle_label = cv2.resize(angle_label, (cfg.IMAGE_WIDTH / 2,cfg.IMAGE_HEIGHT / 2), interpolation = cv2.INTER_NEAREST) 
+#      
+#      blob_caffe = np.zeros((1, 1, angle_label.shape[0], angle_label.shape[1]), dtype=np.uint8)
+#      #print 'blob_caffe.shape: {}'.format(blob_caffe.shape)
+#      #print 'prob.shape: {}'.format(prob.shape)
+#      blob_caffe[0, 0, 0:angle_label.shape[0], 0:angle_label.shape[1]] = angle_label
+#      
+#      AngleLabeldb = {
+#          'angle_label': blob_caffe,
+#      }   
+#      
+#      print 'saving ship angle segmentation label for {}.jpg'.format(gt_image)
+#      
+#      AngleLabeldbs.append(AngleLabeldb)
+#
+#    with open(cache_file, 'wb') as fid:
+#        cPickle.dump(AngleLabeldbs, fid, cPickle.HIGHEST_PROTOCOL)
+#    print 'wrote gt roidb to {}'.format(cache_file)
+#        
+#    return AngleLabeldbs       
     
     
     
