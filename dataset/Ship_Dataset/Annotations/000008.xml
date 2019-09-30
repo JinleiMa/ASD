@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	
+  
+	<folder>Ship1537</folder>
+	
+  
+	<filename>000008.jpg</filename>
+	
+  
+	<size>
+		
+    
+		<width>512</width>
+		
+    
+		<height>384</height>
+		
+    
+		<depth>3</depth>
+		
+  
+	</size>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>184</center_x>
+			
+      
+			<center_y>139</center_y>
+			
+      
+			<width>14</width>
+			
+      
+			<height>91</height>
+			
+      
+			<angle>-20.8544578552</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>161</xmin>
+			
+      
+			<ymin>94</ymin>
+			
+      
+			<xmax>207</xmax>
+			
+      
+			<ymax>184</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+
+</annotation>

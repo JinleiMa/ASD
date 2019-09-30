@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	
+  
+	<folder>Ship1537</folder>
+	
+  
+	<filename>000040.jpg</filename>
+	
+  
+	<size>
+		
+    
+		<width>512</width>
+		
+    
+		<height>384</height>
+		
+    
+		<depth>3</depth>
+		
+  
+	</size>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>285</center_x>
+			
+      
+			<center_y>63</center_y>
+			
+      
+			<width>111</width>
+			
+      
+			<height>26</height>
+			
+      
+			<angle>-21.4477367401</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>229</xmin>
+			
+      
+			<ymin>31</ymin>
+			
+      
+			<xmax>342</xmax>
+			
+      
+			<ymax>96</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>390</center_x>
+			
+      
+			<center_y>109</center_y>
+			
+      
+			<width>92</width>
+			
+      
+			<height>25</height>
+			
+      
+			<angle>-17.9279193878</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>342</xmin>
+			
+      
+			<ymin>83</ymin>
+			
+      
+			<xmax>438</xmax>
+			
+      
+			<ymax>136</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>279</center_x>
+			
+      
+			<center_y>136</center_y>
+			
+      
+			<width>171</width>
+			
+      
+			<height>28</height>
+			
+      
+			<angle>-21.801410675</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>194</xmin>
+			
+      
+			<ymin>91</ymin>
+			
+      
+			<xmax>364</xmax>
+			
+      
+			<ymax>182</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+
+</annotation>

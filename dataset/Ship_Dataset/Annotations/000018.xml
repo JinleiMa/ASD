@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<annotation>
+	
+  
+	<folder>Ship1537</folder>
+	
+  
+	<filename>000018.jpg</filename>
+	
+  
+	<size>
+		
+    
+		<width>512</width>
+		
+    
+		<height>384</height>
+		
+    
+		<depth>3</depth>
+		
+  
+	</size>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>269</center_x>
+			
+      
+			<center_y>47</center_y>
+			
+      
+			<width>142</width>
+			
+      
+			<height>34</height>
+			
+      
+			<angle>-3.46822953224</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>196</xmin>
+			
+      
+			<ymin>25</ymin>
+			
+      
+			<xmax>341</xmax>
+			
+      
+			<ymax>68</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>276</center_x>
+			
+      
+			<center_y>135</center_y>
+			
+      
+			<width>234</width>
+			
+      
+			<height>39</height>
+			
+      
+			<angle>-2.48955273628</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>158</xmin>
+			
+      
+			<ymin>110</ymin>
+			
+      
+			<xmax>394</xmax>
+			
+      
+			<ymax>160</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>148</center_x>
+			
+      
+			<center_y>352</center_y>
+			
+      
+			<width>49</width>
+			
+      
+			<height>12</height>
+			
+      
+			<angle>-71.5650482178</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>135</xmin>
+			
+      
+			<ymin>326</ymin>
+			
+      
+			<xmax>162</xmax>
+			
+      
+			<ymax>377</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+  
+	<object>
+		
+    
+		<name>ship</name>
+		
+    
+		<difficult>0</difficult>
+		
+    
+		<bndbox_angle>
+			
+      
+			<center_x>136</center_x>
+			
+      
+			<center_y>356</center_y>
+			
+      
+			<width>52</width>
+			
+      
+			<height>14</height>
+			
+      
+			<angle>-79.6951522827</angle>
+			
+    
+		</bndbox_angle>
+		
+    
+		<bndbox>
+			
+      
+			<xmin>123</xmin>
+			
+      
+			<ymin>329</ymin>
+			
+      
+			<xmax>148</xmax>
+			
+      
+			<ymax>384</ymax>
+			
+    
+		</bndbox>
+		
+  
+	</object>
+	
+
+</annotation>
